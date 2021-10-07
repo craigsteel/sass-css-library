@@ -1,0 +1,27 @@
+{
+  "name": "sass-css-library",
+  "version": "1.0.0",
+  "description": "CSS Library with a 12 column grid. and css classes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sass-css-library/sass-css-library.git"
+  },
+  "author": "csd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sass-css-library/sass-css-library/issues"
+  },
+  "homepage": "https://github.com/sass-css-library/sass-css-library#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "gulp-purgecss": "^4.0.3"
+  }
+}

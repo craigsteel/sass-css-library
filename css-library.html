@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/css/styles.css">
+  <title>Complete SASS</title>
+</head>
+<body>
+  <nav class="navbar-primary text-white mb-4">
+    <div class="container">
+      <h2 class="site-title">SASS-library</h2>
+      <p>A lightweight CSS library for developing projects</p>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="font-xxl m-2">Colors</h1>
+    <div class="row">
+      <span class="text-primary p-1 m-1 ">primary text</span>
+      <span class="text-secondary p-1 m-1 ">secondary text</span>
+      <span class="text-error p-1 m-1 ">error text</span>
+      <span class="text-info p-1 m-1 ">info text</span>
+    </div>
+    <br><br>
+    <div class="row">
+      <span class="bg-primary p-1 m-1 text-white">bg primary</span>
+      <span class="bg-secondary p-1 m-1 text-white">bg secondary</span>
+      <span class="bg-error p-1 m-1 text-white">bg error</span>
+      <span class="bg-info p-1 m-1 text-white">bg info</span>
+      <san class="bg-blue p-1 m-1 text-white">bg blue</san>
+    </div>
+    <br><br>
+    <div class="row">
+      <span class="bg-primary-dark-8 text-white p-1 m-1">primary dark 8</span>
+      <span class="bg-primary-dark-6 text-white p-1 m-1">primary dark 6</span>
+      <span class="bg-primary-dark-4 text-white p-1 m-1">primary dark 4</span>
+      <span class="bg-primary-dark-2 text-white p-1 m-1">primary dark 2</span>
+      <span class="bg-primary text-white p-1 m-1">primary</span>
+    </div> 
+    <div class="row">
+      <span class="bg-primary-light-2 text-white p-1 m-1">primary light 2</span>
+      <span class="bg-primary-light-4 text-white p-1 m-1">primary light 4</span>
+      <span class="bg-primary-light-6 text-white p-1 m-1">primary light 6</span>
+      <span class="bg-primary-light-8 text-white p-1 m-1">primary light 8</span>
+    </div>
+    <br><br>
+    <div class="row">
+      <a href="#" class="font-lg p-1 m-1 text-hover-orange-light-1">hover me</a>
+    </div>
+
+    <hr class="mt-4 mb-4">
+
+    <!-- font sizes -->
+    <h1 class="font-xxl m-2">Font Sizes</h1>
+    <div class="row">
+      <div style="width: 100%;" class="p-2 font-sm">this is small font</div>
+      <div style="width: 100%;" class="p-2 font-md">this is medium font</div><br>
+      <div style="width: 100%;" class="p-2 font-lg">this is large font</div><br>
+      <div style="width: 100%;" class="p-2 font-xl">this is extra large font</div><br>
+      <div style="width: 100%;" class="p-2 font-xxl">this is extra, extra large font</div><br>
+    </div>
+
+    <hr class="mt-4 mb-4">
+
+    <!-- buttons -->
+    <h1 class="font-xxl m-2">Buttons</h1>
+    <a href="#" class="btn m-2">default btn</a>
+    <a href="#" class="btn-primary text-white m-2">click me</a>
+    <a href="#" class="btn-secondary text-white m-2">click me</a>
+    <a href="#" class="btn-error text-white m-2">click me</a>
+    <a href="#" class="btn-info m-2">click me</a>
+    <a href="#" class="btn-outlined-purple text-purple text-hover-white m-2">click me</a>
+    <a href="#" class="btn-outlined-orange text-orange text-hover-white m-2">click me</a>
+    <a href="#" class="btn-complement-purple m-2">click me</a>
+    <a href="#" class="btn-complement-primary m-2">click me</a>
+
+    <hr class="mt-4 mb-4">
+
+    <!-- cards -->
+    <h1 class="font-xxl m-2">Cards</h1>
+    <div class="card">
+      <h1 class="card-title">This is a title</h1>
+      <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam aliquam praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a href="">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas odio aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam maxime.</p>
+    </div>
+
+    <hr class="mt-4 mb-4">
+
+    <!-- grid system -->
+    <h1 class="font-xxl m-2">Grid System</h1>
+    <div class="row gap-2 justify-center">
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">This is a title</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">This is a title</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">This is a title</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">This is a title</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-4 mb-4">
+    
+    <!-- utilities -->
+    <h1 class="font-xxl m-2">Using Utilities</h1>
+    <div class="mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+    </div>
+    <div class="mt-2 text-secondary-dark-2 bg-secondary-light-5 p-2 br-lg">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+    </div>
+    <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">opacity 10</div>
+    <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">opacity 30</div>
+    <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">opacity 50</div>
+    <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">opacity 70</div>
+    <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">opacity 90</div>
+
+    <hr class="mt-4 mb-4">
+
+  </div>
+</body>
+</html>
