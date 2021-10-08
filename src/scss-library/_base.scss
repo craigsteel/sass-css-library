@@ -23,8 +23,8 @@ a {
 }
 
 hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
+  color: $primary;
+  border-top: 1px solid $primary;
 }
 
 img {
@@ -33,4 +33,16 @@ img {
 
 .test {
   color: $primary;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
