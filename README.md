@@ -23,7 +23,7 @@ git clone https://github.com/craigsteel/sass-css-library.git
 ```
 
 ```bash
-cd fusiondb
+cd sass-css-library
 ```
 
 ```bash
@@ -40,14 +40,3 @@ npm gulp
 
 The `dist/` folder will contain the generated website, which was built from the `/` folder.
 
-### Running
-
-If you want to run a copy of the website locally with support for a live-editing-update loop, run:
-
-```bash
-npm run watch
-```
-
-## Authors
-
-The initial design was created under contract by - [Craig Steel Design](https://craigsteel-design.com)
